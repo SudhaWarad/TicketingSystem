@@ -209,3 +209,28 @@
     top: 8px;
     font-weight: bold;
 }
+
+.classLogin{
+        border-style: solid;
+    height: 213px;
+    width: 417px;
+    /* border: #31495F; */
+    border-radius: 23px;
+    position: relative;
+    left: 31%;
+    top: 100px;
+    box-sizing: content-box;
+    background: aliceblue;
+}
+.classTbl{
+    position: relative;
+    left: 72px;
+    top: 30px;
+}
+.clsLogin{
+    font-weight: bold;
+    position: relative;
+    bottom: 14px;
+    font-size: 30px;
+}
+}

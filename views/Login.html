@@ -1,11 +1,35 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app='myApp'>
+<head>
+
+<title>Tickets Log</title>
+
+<link href="./TicketLogs.css" rel="stylesheet" />
+
+</head>
+<body>
+<div class="classLogin">
+
+
 <form name="login" action="TicketLogs.html" method="GET">
-    <ul>
-        <li><label for="usermail">Email</label>
-        <input type="email" name="usermail" placeholder="yourname@email.com" required></li>
-        <li><label for="password">Password</label>
-        <input type="password" name="password" placeholder="password" required></li>
-        <li>
-        <input type="submit" value="Login"></li>
-    </ul>
+<table class="classTbl">
+			<tr>
+				<td></td>
+				<td><label class="clsLogin">Login</label></td>
+			</tr>
+			<tr>
+					<td><label for="usermail">Email:</label></td>
+						<td><input type="email" name="usermail" placeholder="yourname@email.com" required></td>
+					</tr>
+					<tr>
+						<td><label for="password">Password:</label></td>
+						<td> <input type="password" name="password" placeholder="password" required></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Login"></td>
+					</tr>
+				</table>
 </form>
+</div>
+</body>
