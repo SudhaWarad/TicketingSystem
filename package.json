@@ -26,6 +26,6 @@ ped using Node js, Mongo DB and Angular js",
   },
   "engines": {
     "node": "5.1.0"
-  }
+  },
   "homepage": "https://github.com/SudhaWarad/TicketingSystem#readme"
 }
