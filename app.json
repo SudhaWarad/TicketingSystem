@@ -1,0 +1,9 @@
+{
+  "name": "Ticketing System",
+  "description": "Ticketing System app",
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "repository": "https://github.com/SudhaWarad/TicketingSystem.git",
+ }
