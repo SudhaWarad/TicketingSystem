@@ -44,7 +44,7 @@ app.use(bodyParser.json());
 // Routes
 app.use('/api', require('./routes/api'));
 
-// Start server  
+// Start server
 //app.listen(3000);
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT);
 console.log('API is running on port 3000');
