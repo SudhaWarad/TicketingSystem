@@ -1,17 +1,27 @@
 {
-  "name": "TicketingSystem",
+  "name": "ticketingsystem",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "This is an application to maintain customer ticket log. Develo
+ped using Node js, Mongo DB and Angular js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "4.12.3",
     "body-parser": "^1.14.1",
     "mongoose": "^4.2.7",
     "node-restful": "^0.2.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudhaWarad/TicketingSystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SudhaWarad/TicketingSystem/issues"
+  },
+  "homepage": "https://github.com/SudhaWarad/TicketingSystem#readme"
 }
