@@ -36,7 +36,11 @@ app.get('/TicketLogs.js',function(req,res){
 
 app.get('/', function(req, res) {
 	res.sendfile('./views/Login.html')
-})
+});
+
+app.get('/favicon.ico', function(req, res) {
+	res.sendfile('./views/Login.html')
+});
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
