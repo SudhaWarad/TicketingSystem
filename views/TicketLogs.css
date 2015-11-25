@@ -35,15 +35,6 @@
     overflow-y: auto;
 }
 
-/*
-    *   This is the CSS for one Customer record, in our Master view
-    *
-    *   Each Customer record will have one overall <div> element, with one sub-<div> for each Customer field
-    *   that we want to display.
-    *
-    *   For example, the Customer City values will all be added to the DOM with a CSS class of "cssCompanyCity",
-    *   which sets their position in the "Customer" <div> to (23px, 40px)
-    */
 .cssOneCompanyRecord {
     height: 47px;
     width: 98%;
@@ -91,20 +82,10 @@
     height: 24px;
 }
 
-/*
-    *   This is the CSS for one "Order" record, in our Detail view
-    *
-    *   This one's a little more complicated, as, for each "Order", we'll have an Order Header, followed by a
-    *   collection of "Product" <div>s in that order.
-    *
-    *   But, the theory is just the same.  Each "Product" values gets added to the DOM with a particular CSS class
-    *   to allow us to set their position in the "Product" <div>.
-    */
-
 .cssOneOrderRecord
 {
     width: 90%;
-    position: relative;         /* Very important, for appending child <div>s with absolute positioning later */
+    position: relative;         
     padding: 5px;
     border-bottom: 1px solid white;
     background-color: white;
